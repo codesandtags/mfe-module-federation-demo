@@ -11,10 +11,11 @@ After review in multiples articles, websites and trending topics talking about W
 - Efficient resolution of dependencies and optimized bundles
 - Deployment
 - Authentication
+- Monorepo
 
 ## Demo
 
-TODO: Add this section...
+[Here](https://d2e6dmf2adhf2n.cloudfront.net/) you will find the demo. This project has been deployed in AWS S3 and it's using cloudfront.
 
 ### AWS
 
@@ -22,7 +23,13 @@ TODO: Add this section...
 
 ## How it works?
 
-TODO: Add this section...
+This project has the next structure:
+
+- .github/workflows: Contains the Github Actions or workflows to automate the deployment process in AWS.
+- auth: MFE responsible to do the login / signup
+- dashboard: MFE responsible to show information once the user is logged.
+- marketing: MFE responsible to show public facing information.
+- container: Orchestrate all MFE. This project get tha remoteEntry.js file for each MFE and assembly the functionalities. This project also is incharge to handle the routing and events to childs.
 
 ## Resources
 
