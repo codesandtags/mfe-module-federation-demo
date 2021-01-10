@@ -1,3 +1,3 @@
 import("./bootstrap");
 
-console.log("Marketing running");
+console.log("Dashboard running");
