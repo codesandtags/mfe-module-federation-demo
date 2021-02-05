@@ -79,7 +79,7 @@ export default function Album() {
               color="textPrimary"
               gutterBottom
             >
-              Hello Demo
+              Hola a todos en el Front-end Sync
             </Typography>
             <Typography
               variant="h5"
