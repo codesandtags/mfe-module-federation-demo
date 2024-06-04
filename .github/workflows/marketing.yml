@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "marketing/**"
+      - "packages/marketing/**"
 
 defaults:
   run:
